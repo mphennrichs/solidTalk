@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/solidTalk.iml" filepath="$PROJECT_DIR$/solidTalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solidTalk_main.iml" filepath="$PROJECT_DIR$/.idea/modules/solidTalk_main.iml" group="solidTalk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solidTalk_test.iml" filepath="$PROJECT_DIR$/.idea/modules/solidTalk_test.iml" group="solidTalk" />
+    </modules>
+  </component>
+</project>
