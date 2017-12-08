@@ -1,4 +1,7 @@
-package OCP.Violacao;
+package _2_OCP.Solucao;
+
+import _2_OCP.Violacao.AccountTypeEnum;
+import _2_OCP.Violacao.Draw;
 
 public class DrawInvestments extends Draw {
 

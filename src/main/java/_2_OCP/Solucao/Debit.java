@@ -1,6 +1,6 @@
-package OCP.Solucao;
+package _2_OCP.Solucao;
 
-import OCP.Violacao.AccountTypeEnum;
+import _2_OCP.Violacao.AccountTypeEnum;
 
 public abstract class Debit {
 

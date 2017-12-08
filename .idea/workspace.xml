@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5855db-2ebd-4aaa-a9dc-6d922a7431bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/OCP/Solucao/Debit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/OCP/Violacao/AccountTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/OCP/Violacao/Draw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawChecking.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawInvestments.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawSavings.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Solucao/CallService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Solucao/CameraService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Solucao/WhatsappService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/Smartphone.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SubClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SuperClass.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawChecking.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawInvestments.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawSavings.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Solucao/Debit.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/Debit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/AccountTypeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/AccountTypeEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/Draw.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawChecking.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawChecking.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawInvestments.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawInvestments.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawSavings.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawSavings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SRP/Solucao/CallService.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CallService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SRP/Solucao/CameraService.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CameraService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SRP/Solucao/WhatsappService.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/WhatsappService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SRP/Violacao/Smartphone.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Violacao/Smartphone.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,38 +36,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Smartphone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SRP/Violacao/Smartphone.java">
+      <file leaf-file-name="SubClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/posConditions/SubClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SRP/Solucao/CallService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Draw.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/Draw.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Debit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Solucao/Debit.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/Debit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
@@ -71,61 +56,99 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawChecking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawChecking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawSavings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawSavings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawInvestments.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawInvestments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AccountTypeEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/AccountTypeEnum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/AccountTypeEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="57">
               <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SRP/Solucao/CameraService.java">
+      <file leaf-file-name="Draw.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/Draw.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="190">
+              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhatsappService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SRP/Solucao/WhatsappService.java">
+      <file leaf-file-name="DrawChecking.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawChecking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SubClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SuperClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawInvestments.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawInvestments.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawSavings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawSavings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/posConditions/SuperClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -450,6 +473,24 @@
         <option value="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawChecking.java" />
         <option value="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawSavings.java" />
         <option value="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawInvestments.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/DrawInvestments.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Solucao/Debit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/DrawInvestments.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/contravarianceOfArguments/superclass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/contravarianceOfArguments/Superclass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/contravarianceOfArguments/SuperClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/contravarianceOfArguments/SubClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/covarianceOfReturn/SubClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/covarianceOfReturn/SuperClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/preConditions/SuperClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/preConditions/SubClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/posConditions/SuperClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/posConditions/SubClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/historyConstraint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/posConditions/SubClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawSavings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SuperClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SubClass.java" />
       </list>
     </option>
   </component>
@@ -513,7 +554,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="OCP" type="462c0819:PsiDirectoryNode" />
+              <item name="_1_SRP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
@@ -521,7 +562,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="OCP" type="462c0819:PsiDirectoryNode" />
+              <item name="_1_SRP" type="462c0819:PsiDirectoryNode" />
               <item name="Solucao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -530,7 +571,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="OCP" type="462c0819:PsiDirectoryNode" />
+              <item name="_1_SRP" type="462c0819:PsiDirectoryNode" />
               <item name="Violacao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -539,7 +580,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SRP" type="462c0819:PsiDirectoryNode" />
+              <item name="_2_OCP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
@@ -547,7 +588,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SRP" type="462c0819:PsiDirectoryNode" />
+              <item name="_2_OCP" type="462c0819:PsiDirectoryNode" />
               <item name="Solucao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -556,8 +597,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SRP" type="462c0819:PsiDirectoryNode" />
+              <item name="_2_OCP" type="462c0819:PsiDirectoryNode" />
               <item name="Violacao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_3_LSP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_3_LSP" type="462c0819:PsiDirectoryNode" />
+              <item name="historyConstraint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_3_LSP" type="462c0819:PsiDirectoryNode" />
+              <item name="preConditions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -577,15 +644,20 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="_3_LSP.Violacao.contravarianceOfArguments" />
       <recent name="SRP" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_3_LSP.Solucao" />
       <recent name="OCP.Violacao" />
       <recent name="OCP.Solucao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\SRP\Solucao" />
-      <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java" />
+      <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\historyConstraint" />
+      <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\Violacao\posConditions" />
+      <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\Violacao" />
+      <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\Violacao\preConditions" />
+      <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\Violacao\covarianceOfReturn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -744,7 +816,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SRP/Violacao/Smartphone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Violacao/Smartphone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -752,7 +824,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SRP/Solucao/WhatsappService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/WhatsappService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -760,7 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SRP/Solucao/CameraService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CameraService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
@@ -768,7 +840,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SRP/Solucao/CallService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CallService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
@@ -792,7 +864,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SRP/Violacao/Smartphone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Violacao/Smartphone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
@@ -808,15 +880,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/AccountTypeEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/Solucao/Debit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/DrawSavings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/DrawChecking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/Draw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/AccountTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/DrawInvestments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/contravarianceOfArguments/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/contravarianceOfArguments/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/covarianceOfReturn/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/covarianceOfReturn/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/preConditions/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/preConditions/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/posConditions/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/Violacao/historyConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/posConditions/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/AccountTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
           <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/Draw.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/Draw.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
@@ -824,7 +1016,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Solucao/Debit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawInvestments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawSavings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/Debit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
@@ -832,27 +1040,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawChecking.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawChecking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawSavings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SuperClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="227">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawInvestments.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SubClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="265">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
