@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5855db-2ebd-4aaa-a9dc-6d922a7431bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SubClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SuperClass.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawChecking.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawInvestments.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawSavings.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Solucao/Debit.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/Debit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/AccountTypeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/AccountTypeEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/Draw.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawChecking.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawChecking.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawInvestments.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawInvestments.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/OCP/Violacao/DrawSavings.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawSavings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SRP/Solucao/CallService.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CallService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SRP/Solucao/CameraService.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CameraService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SRP/Solucao/WhatsappService.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/WhatsappService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SRP/Violacao/Smartphone.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Violacao/Smartphone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_4_ISP/Solution/IDoor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_4_ISP/Solution/IKnoblessDoor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_4_ISP/Solution/KnoblessDoorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_4_ISP/Solution/SafeDoorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_4_ISP/Violation/IDoor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_4_ISP/Violation/KnoblessDoorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/_4_ISP/Violation/SafeDoorImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CallService.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Solution/CallService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CameraService.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Solution/CameraService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/WhatsappService.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Solution/WhatsappService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_1_SRP/Violacao/Smartphone.java" afterPath="$PROJECT_DIR$/src/main/java/_1_SRP/Violation/Smartphone.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/Debit.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solution/Debit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawChecking.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solution/DrawChecking.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawInvestments.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solution/DrawInvestments.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawSavings.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Solution/DrawSavings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/AccountTypeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Violation/AccountTypeEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/Draw.java" afterPath="$PROJECT_DIR$/src/main/java/_2_OCP/Violation/Draw.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -36,119 +39,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SubClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/posConditions/SubClass.java">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <state relative-caret-position="228">
+              <caret line="12" column="76" lean-forward="false" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Debit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/Debit.java">
+      <file leaf-file-name="IDoor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Violation/IDoor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="38">
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountTypeEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/AccountTypeEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Draw.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/Draw.java">
+      <file leaf-file-name="KnoblessDoorImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Violation/KnoblessDoorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawChecking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawChecking.java">
+      <file leaf-file-name="KnoblessDoorImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Solution/KnoblessDoorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="208">
+              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SubClass.java">
+      <file leaf-file-name="SafeDoorImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Solution/SafeDoorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuperClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SuperClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawInvestments.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawInvestments.java">
+      <file leaf-file-name="IDoor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Solution/IDoor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawSavings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawSavings.java">
+      <file leaf-file-name="IKnoblessDoor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Solution/IKnoblessDoor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="95">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuperClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_3_LSP/posConditions/SuperClass.java">
+      <file leaf-file-name="SafeDoorImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Violation/SafeDoorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="380">
+              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solution/CallService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -160,6 +135,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -491,6 +467,17 @@
         <option value="$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawSavings.java" />
         <option value="$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SuperClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/_3_LSP/historyConstraint/SubClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_SRP/Solution/CallService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_4_ISP/Solution/asdf.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/_4_ISP/Violation/IDoor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_4_ISP/Violation/SafeDoorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_4_ISP/Violation/IDoorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_4_ISP/Violation/KnoblessDoorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_4_ISP/Solution/IDoor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_4_ISP/Solution/IKnoblessDoor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_4_ISP/Solution/KnoblessDoorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_5_DIP.java" />
       </list>
     </option>
   </component>
@@ -548,84 +535,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_1_SRP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_1_SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="Solucao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_1_SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="Violacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_2_OCP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_2_OCP" type="462c0819:PsiDirectoryNode" />
-              <item name="Solucao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_2_OCP" type="462c0819:PsiDirectoryNode" />
-              <item name="Violacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_3_LSP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_3_LSP" type="462c0819:PsiDirectoryNode" />
-              <item name="historyConstraint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solidTalk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solidTalk" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_3_LSP" type="462c0819:PsiDirectoryNode" />
-              <item name="preConditions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -641,23 +550,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="readme&#9;FILE&#9;file://C:/Users/fogo/Desktop/solid/solidTalk/README.md" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="_4_ISP.Violation" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="_3_LSP.Violacao.contravarianceOfArguments" />
       <recent name="SRP" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_4_ISP.Solution" />
       <recent name="_3_LSP.Solucao" />
       <recent name="OCP.Violacao" />
       <recent name="OCP.Solucao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_4_ISP\Solution" />
       <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\historyConstraint" />
       <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\Violacao\posConditions" />
       <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\Violacao" />
       <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\Violacao\preConditions" />
-      <recent name="C:\Users\fogo\Desktop\solid\solidTalk\src\main\java\_3_LSP\Violacao\covarianceOfReturn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -757,6 +671,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ee5855db-2ebd-4aaa-a9dc-6d922a7431bb" name="Default" comment="" />
@@ -773,7 +690,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -787,7 +703,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -816,7 +732,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Violacao/Smartphone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Violation/Smartphone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -824,7 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/WhatsappService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solution/WhatsappService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -832,18 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CameraService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solution/CameraService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solucao/CallService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -864,7 +772,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Violacao/Smartphone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Violation/Smartphone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
@@ -1000,7 +908,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/AccountTypeEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violation/AccountTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
@@ -1008,7 +916,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violacao/Draw.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Violation/Draw.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
@@ -1016,7 +924,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawInvestments.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solution/DrawInvestments.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1024,7 +932,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawSavings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solution/DrawSavings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1032,7 +940,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/Debit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solution/Debit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
@@ -1040,7 +948,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solucao/DrawChecking.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_OCP/Solution/DrawChecking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1079,6 +987,102 @@
             <element signature="e#369#370#0" expanded="true" />
             <element signature="e#395#396#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_SRP/Solution/CallService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Violation/asf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Solution/asdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="76" lean-forward="false" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Violation/SafeDoorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Violation/IDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Violation/KnoblessDoorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Solution/IDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Solution/IKnoblessDoor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Solution/SafeDoorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_4_ISP/Solution/KnoblessDoorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_5_DIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

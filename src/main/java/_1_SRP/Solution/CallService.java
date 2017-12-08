@@ -1,4 +1,4 @@
-package _1_SRP.Solucao;
+package _1_SRP.Solution;
 
 public class CallService {
 

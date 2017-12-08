@@ -1,4 +1,4 @@
-package _1_SRP.Violacao;
+package _1_SRP.Violation;
 
 public class Smartphone {
 

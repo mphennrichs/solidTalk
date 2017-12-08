@@ -1,7 +1,7 @@
-package _2_OCP.Solucao;
+package _2_OCP.Solution;
 
-import _2_OCP.Violacao.AccountTypeEnum;
-import _2_OCP.Violacao.Draw;
+import _2_OCP.Violation.AccountTypeEnum;
+import _2_OCP.Violation.Draw;
 
 public class DrawChecking extends Draw {
 
